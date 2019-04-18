@@ -1,0 +1,49 @@
+Urxvt*urlLauncher: firefox
+URxvt*background: [10]blue
+URxvt*foreground: white
+URxvt*font: xft:Droid\ Sans\ Mono\ for\ Powerline:antialias=true:pixelsize=13
+URxvt.highlightColor: #fdea02
+URxvt.highlightTextColor: #090300
+URxvt.allow_bold: false
+URxvt*scrollBar: false
+Urxvt*perl-lib: /usr/lib/urxvt/perl/
+URxvt*perl-ext-common: default,clipboard
+URxvt*keysym.Shift-control-V: perl:clipboard:paste
+URxvt.scrollStyle: rxvt
+
+! special
+*.foreground:   #a5a2a2
+*.background:   #090300
+*.cursorColor:  #a5a2a2
+
+! black
+*.color0:       #090300
+*.color8:       #5c5855
+
+! red
+*.color1:       #db2d20
+*.color9:       #db2d20
+
+! green
+*.color2:       #01a252
+*.color10:      #01a252
+
+! yellow
+*.color3:       #fded02
+*.color11:      #fded02
+
+! blue
+*.color4:       #01a0e4
+*.color12:      #01a0e4
+
+! magenta
+*.color5:       #a16a94
+*.color13:      #a16a94
+
+! cyan
+*.color6:       #b5e4f4
+*.color14:      #b5e4f4
+
+! white
+*.color7:       #a5a2a2
+*.color15:      #f7f7f7
